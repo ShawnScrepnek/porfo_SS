@@ -1,0 +1,28 @@
+:root {
+    -moz-background-color: blueviolet;
+    -webkit-background-color: black;
+    background-color: black;
+    color: grey;
+    padding: 32px;
+}
+
+div,
+#myBody {
+    -moz-background-color: color(display-p3 1 0.3 0 / .5);
+    -webkit-background-color: color(display-p3 1 0.3 0 / .5);
+    background-color: color(display-p3 1 0.3 0 / .3);
+    border: 2px solid hsl(45 100% 75%);
+    color: white;
+    height: 500px;
+    padding: 16px;
+    width: 600px;
+}
+
+#myBody>h1 {
+    -moz-background-color: none;
+    -webkit-background-color: none;
+    background-color: none;
+    color: hsl(45 100% 34%);
+    height: 100px;
+    width: 500px;
+}
